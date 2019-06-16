@@ -7,4 +7,4 @@ The code creates Figure 4, Figure 5 and Figure 6 from the paper.
 Execute:
 >> main.m
 
-Remark: The code may take a few minutes to run. In order to speed it up, a shorter signal length can be used (len) or the MATLAB function "eig" can be replaced by "eigs". However, this may lead to plots which are slightly different than the ones in the paper.
+Remark: In order to reduce the running time, we use the MATLAB function "eigs" (main.m: lines 99 and 103) instead of "eig". This may lead to plots which are slightly different than the ones in the paper. The exact plots that appear in the paper can be obtained by replacing "eigs" with "eig" (leads to a significant increase in running time).
