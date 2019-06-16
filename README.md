@@ -7,4 +7,4 @@ The code creates Figure 4, Figure 5 and Figure 6 from the paper.
 Execute:
 >> main.m
 
-Remark: In order to reduce the running time, we use the MATLAB function "eigs" (main.m: lines 99 and 103) instead of "eig". This may lead to plots which are slightly different than the ones in the paper. The exact plots that appear in the paper can be obtained by replacing "eigs" with "eig" (leads to a significant increase in running time).
+Remark: In order to reduce the running time, we use the MATLAB function "eigs" (main.m: lines 99 and 103) instead of "eig". This may lead to plots which are slightly different than the ones in the paper (especially in Figure 5). The exact plots that appear in the paper can be obtained by replacing "eigs" with "eig" (leads to a significant increase in running time).
